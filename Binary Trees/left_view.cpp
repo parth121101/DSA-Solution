@@ -49,3 +49,7 @@ vector<int> leftView(Node *root)
     }
     return s;
 }
+
+int main(){
+    return 0;
+}
