@@ -1,14 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//structure of Node 
+//structure of Node
 struct Node
 {
     int data;
     Node* left;
     Node* right;
 };
-
+// reverse levelorder traversal
 vector<int> reverseLevelOrder(Node *root)
 {
     queue<Node*> q;
